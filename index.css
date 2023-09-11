@@ -1,0 +1,120 @@
+body {
+    background-image: url("VOLNA.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    height: 100vh;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100vh;
+}
+
+.title {
+    justify-content: center;
+    font-size: 7vmin;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+.conteiner {
+    display: flex;
+    flex-flow: row wrap;
+    background: rgba(255,255,255,0.70);
+    max-width: 90%;
+    min-height: 40%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;            
+}
+
+.conteiner > * {
+  flex: 1 100%;
+}
+
+.column {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 0 0;
+  justify-content: center;  
+  width: 50%;
+  
+}
+
+.column2 {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 0 0;
+  justify-content: top;  
+  width: 50%;
+  
+}
+
+.buttoncon {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 4vmin;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 10vmin;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    border: 2px solid whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 33vmin;
+    height: 15vmin;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 4vmin;
+}
+
+#increment-btn1 {
+    background: skyblue;
+
+}
+
+#save-btn1 {
+    background: lightseagreen;
+}
+
+#increment-btn2 {
+    background: skyblue;
+
+}
+
+#save-btn2 {
+    background: lightseagreen;
+}
+
+.rem {
+    font-size: 6vmin;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.passes {
+    font-size: 4vmin;
+    color: black;
+}
